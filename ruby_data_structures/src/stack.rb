@@ -18,7 +18,7 @@ class Stack
   def remove
     unless @length <= 0
       @length -= 1
-      @storage[@length]
+      @storage.pop
     end
   end
 end
